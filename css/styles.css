@@ -105,12 +105,6 @@ a {
 	border-radius: 12px; 
 }
 
-#hovimg {
-	margin: 2% 10% 2% 9%;
-	width: 36%;
-	border-radius: 12px;
-}
-
 hr {
     border: none;
     height: 3px;
@@ -185,6 +179,10 @@ hr {
 
 .vid {
 	border-radius: 12px;
+}
+
+#indexvid {
+	margin: 2% 10% 0 9%;
 }
 
 #hovvid {
