@@ -16,8 +16,71 @@ p{
 	font-size: 20px;
 }
 
-a {
-	color: #EBE192;
+.socmed {
+	width: 100%;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 25px;
+}
+
+header {
+	background-color: black;
+	margin: -100px -10px 100px -10px;
+	height: 130px;
+	box-shadow: 0px 5px 5px grey;
+}
+	
+#twitter {
+	posiiton: absolute;
+	margin-left: 25px;
+	background: url('../images/socmed.png') no-repeat -226px -64px;
+	width: 26px;
+	height: 26px;
+	transform: scale(2,2);
+}
+
+div#twitter:hover {
+	background: url('../images/socmed.png') no-repeat -226px -7px;
+}
+
+div#twitter:active {
+	background: url('../images/socmed.png') no-repeat -226px -7px;
+}
+
+#facebook {
+	posiiton: absolute;
+	margin-top: -25px;
+	margin-left: 115px;
+	background: url('../images/socmed.png') no-repeat -140px -64px;
+	width: 26px;
+	height: 26px;
+	transform: scale(2,2);
+}
+
+div#facebook:hover {
+	background: url('../images/socmed.png') no-repeat -140px -8px;
+}
+
+div#facebook:active {
+	background: url('../images/socmed.png') no-repeat -140px -8px;
+}
+
+#email {
+	posiiton: absolute;
+	margin-top: -25px;
+	margin-left: 200px;
+	background: url('../images/socmed.png') no-repeat -11px -64px;
+	width: 26px;
+	height: 26px;
+	transform: scale(2,2);
+}
+
+div#email:hover {
+	background: url('../images/socmed.png') no-repeat -11px -7px;
+}
+
+div#email:active {
+	background: url('../images/socmed.png') no-repeat -11px -7px;
 }
 
 .title {
@@ -30,7 +93,7 @@ a {
 	color: white;
 	text-align: center;
 	padding: 4% 11% 4% 11%;
-	margin: 4% 3% 4% 0%;
+	margin: 4% 0% 4% 0%;
 	border-radius: 8px;
 }
 
@@ -58,8 +121,9 @@ a {
 }
 
 #indexmusic {
-	transform: scale(0.8, 0.8);
-	margin-left: -6%;
+	margin-top: 10px;
+	transform: scale (0.8,0.8);
+	width: 100%;
 }
 
 .textbox {
@@ -149,6 +213,18 @@ hr {
 	text-align: center;
 }
 
+#herrschername > a {
+	color: #EBE192;
+}
+
+#herrschername > a:hover{
+	color: #BEAC23;
+}
+
+#herrschername > a:active{
+	color: #BEAC23;
+}
+
 #herrscherdesc {	
 	padding: 5%;
 	margin: 2%;
@@ -209,4 +285,16 @@ hr {
 	margin: 10% -0.5% -1% -0.5%;
 	text-align: justify;
 	font-size: 80%;
+}
+
+#references a {
+	color: #EBE192;
+}
+
+#references a:hover{
+	color: #BEAC23;
+}
+
+#references a:active{
+	color: #BEAC23;
 }
